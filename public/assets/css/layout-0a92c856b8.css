@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: cornflowerblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  body #main-layout {
+    height: 100%; }
+  body #container-post-list {
+    width: 100%; }
+    body #container-post-list ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+      justify-content: center; }
+    body #container-post-list li {
+      display: flex;
+      align-items: center; }
+      body #container-post-list li p {
+        margin-left: 5px; }
+      body #container-post-list li .comment-post {
+        padding: 5px; }
+        body #container-post-list li .comment-post form {
+          margin: 0; }

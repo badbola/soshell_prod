@@ -1,0 +1,17 @@
+body header {
+  background-color: blue;
+  display: flex;
+  padding: 5px;
+  color: white; }
+
+body ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%; }
+  body ul li {
+    padding: 5px; }
+    body ul li a {
+      text-decoration: none;
+      color: white; }
