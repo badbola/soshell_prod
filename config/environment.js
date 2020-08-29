@@ -35,6 +35,6 @@ const production = {
 };
 
 module.exports =
-  eval(process.env.CODEIAL_ENVIRONMENT) == undefined
+  eval(process.env.SOSHELL_ENVIRONMENT) == undefined
     ? development
-    : eval(process.env.CODEIAL_ENVIRONMENT);
+    : eval(process.env.SOSHELL_ENVIRONMENT);
