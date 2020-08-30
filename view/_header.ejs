@@ -1,24 +1,21 @@
-<link rel="stylesheet" href="/css/header.css">
 <header>
-    <h1>SoShell</h1>
+  <h1>SoShell</h1>
 
-    <ul>
-        <% if (locals.user) {%>
-            <li>
-                <a href="/users/profile/<%= user.id%>"><%= user.name %></a>
-            </li>
-            <li>
-                <a href="/users/signout">Sign Out</a>
-            </li>
-        <% } else { %>
-            <li>
-                <a href="/users/signup">Sign Up</a>
-            </li>
-            <li>
-                <a href="/users/signin">Sign In</a>
-            </li>
-        <% } %>
-    </ul>
-
-
+  <ul>
+    <% if (locals.user) {%>
+    <li>
+      <a href="/users/profile/<%= user.id%>"><%= user.name %></a>
+    </li>
+    <li>
+      <a href="/users/signout">Sign Out</a>
+    </li>
+    <% } else { %>
+    <li>
+      <a href="/users/signup">Sign Up</a>
+    </li>
+    <li>
+      <a href="/users/signin">Sign In</a>
+    </li>
+    <% } %>
+  </ul>
 </header>
